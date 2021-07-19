@@ -1,0 +1,175 @@
+/* Index Page CSS Starts    */
+
+ul.nav-bar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  position: sticky;
+}
+
+ul.nav-bar li {
+    display:inline-block;
+    margin: 10px;
+}
+
+ul.list{
+  list-style-type:disc;
+}
+
+ul.list li{
+  display: block;
+  margin: 10px;
+}
+
+img{
+  display: inline-block;
+}
+
+#img1{
+  margin-left: 30%;
+
+}
+
+#img2{
+  height:180px;
+  width:400px;
+}
+
+.div{
+  height: 300px;
+  width: 500px;
+  border: none;
+    border-radius: 25px;
+}
+
+div.div1{
+  display: block;
+  margin-left: 35%;
+  background-color: #cce3e6;
+}
+
+div.div2, div.div3{
+  background-color: #b2bdb5;
+  display: inline-block;
+  margin: 30px;
+}
+
+div.div2{
+  float: left;
+}
+
+div.div3{
+  float: right;
+}
+
+h3.h1{
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3.h2, h3.h3{
+  padding-top: 20px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+p.para1{
+  text-align: center;
+}
+
+p.para2, p.para3{
+  text-align: left;
+  padding-left: 10px;
+}
+
+ul.list{
+  list-style-type: circle;
+}
+
+footer{
+  background-color: #cce3e6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+/* --------------- END of Index Page ----------------------------------------------- */
+
+/* Time Table Page CSS Starts    */
+
+input.button{
+  float: right;
+}
+h1{
+  text-align: center
+}
+table.time-table{
+  border-collapse: collapse;
+  width: 100%;
+  border:2px solid black;
+}
+td,th {
+  border: 2px solid black;
+  padding: 8px;
+}
+thead{
+  background-color: #218ffc;
+}
+td.violet{
+  background-color: #6690f1;
+}
+td.lightblue{
+  background-color: #cce3e6;
+}
+td.yellow{
+  background-color: #fad92e;
+}
+td.pink{
+  background-color: #f37e72;
+}
+td.darkyellow{
+  background-color: #dda329;
+}
+td.green{
+  background-color: #68cc36;
+}
+td.purple{
+  background-color: #9470dc;
+}
+
+td.red{
+  background-color: red;
+}
+td.break{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* --------------- END of Time Table Page ----------------------------------------------- */
+
+/* Time Table Page CSS Starts    */
+form {
+   display: inline-block;
+  background-color: #cce3e6;
+  position: center;
+  width: 500px;
+  text-align: center;
+  margin-left: 40%;
+}
+fieldset{
+  height: 500px;
+}
+label{
+  padding: 30px;
+}
+label.subject{
+  text-align: left;
+}
+
+
+/* --------------- END of Form Page ----------------------------------------------- */
